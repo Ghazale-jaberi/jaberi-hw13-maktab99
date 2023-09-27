@@ -1,0 +1,102 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css");
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.usersDiv{
+    margin: 60px auto;
+}
+
+body{
+    background-color:#A0AECD ;
+    font-family: sans-serif;
+}
+
+nav{
+    background-color: #000000;
+    font-weight: 600;
+}
+.set__color{
+    color: #fff;
+}
+.set__color:hover{
+    color: #A0AECD;
+}
+
+.btn{
+    background-color: #000000;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #47f372;
+}
+
+
+@media (min-width: 993px) {
+    .form-outline {
+      width: 100%; 
+      font-size: 18px; 
+    }
+  }
+  @media (min-width: 769px) and (max-width: 992px) {
+    .form-outline {
+      width: 70%;
+      font-size: 16px; 
+    }
+  }
+  @media (min-width: 577px) and (max-width: 768px) {
+    .form-outline {
+      width: 80%; 
+      font-size: 14px; 
+    }
+  }
+  @media (max-width: 576px) {
+    .form-outline {
+      width: 100%; 
+      font-size: 12px; 
+    }
+  }
+        
+  .navbar-toggler-icon.custom-icon {
+    background-color:#A0AECD; 
+  
+  }
+
+.pagination{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+i{
+  margin-left: 15px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.bi-trash{
+  color: red;
+}
+
+.bi-pen{
+  color:  #47f372;
+}
+
+.back{
+  padding: 10px;
+
+}
+
+.back a{
+ text-decoration: none;
+ color: #000000;
+ font-style: italic;
+}
+
+.back:hover{
+  box-shadow: #fff;
+}

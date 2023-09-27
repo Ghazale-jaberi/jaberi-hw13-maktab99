@@ -1,0 +1,40 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+
+<h3>How to Disable Right Click using jQuery</h3>
+
+<script>
+$(document).ready(function(){
+     $(document).bind("contextmenu",function(e){
+     	 alert('right click disabled');
+        return false;
+    });
+});
+</script>
+</body>
+</html>
+
+<!--
+//
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Disable Right Click on Website Using JQuery</title>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>    
+</head>
+<body>
+</body>
+</html>
+<script>
+    $(document).ready(function(){
+    $(document).bind("contextmenu",function(event){
+    alert('Right Click is Disabled');
+    return false;
+    });
+    });
+    </script>
+-->

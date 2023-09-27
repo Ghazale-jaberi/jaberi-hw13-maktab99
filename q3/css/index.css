@@ -1,0 +1,19 @@
+/* Add your table styling here */
+#striped-table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 30px auto;
+  
+}
+
+#striped-table th, #striped-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+/* Define alternating row styles for the striped effect */
+#striped-table tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}

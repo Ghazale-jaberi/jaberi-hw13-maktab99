@@ -1,0 +1,61 @@
+body{
+    background-color: black;
+}
+
+.btnLogIn{
+    width: 180px;
+    height: 65px;
+    color: #fbfdfa;
+    border-radius: 30px;
+    border: 5px solid #fbfdfa;
+    background-color: #01aba2;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+  
+}
+
+.btnLogIn i{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    background-color: #fbfdfa;
+    color: #01aba2;
+    font-size: 1.3rem;
+    font-weight: 800;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+span{
+    font-size: 16px;
+}
+
+
+
+.btnLogOut{
+    width: 180px;
+    height: 65px;
+    color: #fbfdfa;
+    border-radius: 30px;
+    border: 5px solid #fbfdfa;
+    background-color: #ff5a5c;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+}
+
+
+.btnLogOut i{
+        width: 100px;
+        height: 100px;
+        background-color: #fec155;
+        color: white;
+        font-size: 1.3rem;
+        font-weight: 800;
+        border-radius: 100%;
+        margin-right: 5px;
+   
+
+
+}

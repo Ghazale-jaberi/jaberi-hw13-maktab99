@@ -1,0 +1,13 @@
+body{
+    background-color: #212121;
+}
+
+.my-element {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white; /* تنظیم پس‌زمینه به سفید */
+    width: 200px; /* عرض مورد نظر */
+    height: 80px; /* ارتفاع مورد نظر */
+}
